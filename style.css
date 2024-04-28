@@ -1,0 +1,52 @@
+body {
+    background-color: white;
+}
+
+.header {
+    background-color: rgb(13, 13, 72);
+    height: 500px;
+}
+
+.control {
+    color: rgb(175, 158, 136);
+    margin-left: 70px;
+    margin-right: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo {
+    
+    margin-top: 15px;    
+}
+
+.header-link {
+    gap: 20px;
+    display: flex;
+    list-style: none;
+}
+.four {
+    margin-left: 70px;
+    margin-right: 70px;
+    display: flex;
+}
+.bigl{
+    color: white;
+    font-size: 100px;
+}
+.small{
+    color: rgb(175, 158, 136);
+}
+.onebox {
+    border: 2px solid blue;
+    width: 700px;
+    height: 400px;
+    background-color: gray;
+}
+
+.three {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
