@@ -16,8 +16,8 @@ body {
 }
 
 .header-logo {
-    
-    margin-top: 15px;    
+
+    margin-top: 15px;
 }
 
 .header-link {
@@ -25,23 +25,32 @@ body {
     display: flex;
     list-style: none;
 }
+
 .four {
     margin-left: 70px;
     margin-right: 70px;
     display: flex;
 }
-.bigl{
+
+.bigl {
     color: white;
     font-size: 100px;
 }
-.small{
+
+.small {
     color: rgb(175, 158, 136);
 }
+
 .onebox {
-    border: 2px solid blue;
+
     width: 700px;
     height: 400px;
     background-color: gray;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .three {
@@ -50,3 +59,114 @@ body {
     align-items: flex-start;
     justify-content: space-between;
 }
+h2 {
+    display: flex;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 150px;
+    margin-left: 180px;
+    margin-right: 180px;
+}
+.box{
+    border: 2px solid blue;
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+    margin-bottom: 150px;
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 180px;
+    margin-right: 180px;
+
+}
+.boxtwo{
+    height: 140px;
+    width: 140px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* i dont know how to centralise this text in this boxtwo */
+}
+
+
+
+
+
+
+
+
+.quote{
+    height: 300px;
+    background-color: rgb(234, 217, 217);
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    margin-top: 200px;
+    margin-bottom: 70px;
+    /* in this class and the one down align items: center; is not working that's why i used justify content for column and row */
+}
+.inspiration{
+    margin-left: 465px;
+    margin-right: 465px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.god {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
+     margin-right: 465px;
+}
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 150px;
+    height: 150px;
+    width: 1000px;
+    background-color: rgb(47, 47, 218);
+
+
+}
+.first {
+
+    height: 120px;
+    width: 500px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 60px;
+    margin-bottom: 20px;
+
+}
+.call{
+    font-size: 25px;
+}
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    width: 80px;
+    border-color: 20px;
+}
+.sign-up {
+    margin-right: 100px;
+}
+
+
+
+ 
