@@ -64,17 +64,18 @@ h2 {
     justify-content: center;
 }
 .container{
+    gap: 20px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     height: 150px;
-    margin-left: 180px;
+    margin-left: 100px;
     margin-right: 180px;
 }
 .box{
     border: 2px solid blue;
-    height: 150px;
-    width: 150px;
+    height: 200px;
+    width: 250px;
     border-radius: 10px;
     margin-bottom: 150px;
 }
@@ -87,8 +88,9 @@ h2 {
 
 }
 .boxtwo{
-    height: 140px;
-    width: 140px;
+    gap: 40px;
+    height: 200px;
+    width: 250px;
     display: flex;
     flex-direction: row;
     text-align: center;
